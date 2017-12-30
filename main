@@ -1,0 +1,13 @@
+
+s = input("Introduce el numero: ")
+
+print("El número es: " + s)
+
+s = s * 1
+
+if s == "25":
+    print("Es 25")
+else:
+    print("No es 25")
+
+# Comentario
