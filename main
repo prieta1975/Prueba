@@ -1,14 +1,24 @@
-# Versión 4
+# Versión 5
 
-s = input("Introduce el numero: ")
+# Entrada en número entero en lugar de cadena de texto
 
-print("El número es: " + s)
+s = int(input("Introduce el número: "))
 
-s = s * 1
+print("El número es:", s)
 
-if s == "25":
+if s == 25:
     print("Es 25")
 else:
     print("No es 25")
 
-# Comentario
+# Notas:
+#
+# Lectura de número como texto
+# x = input("Introduce el número: "
+#
+# Lectura de número como entero
+# x = int(input("Introduce el número: "))
+#
+# Lectura de número como flotante
+# x = float(input("Introduce el número: "))
+
